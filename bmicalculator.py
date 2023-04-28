@@ -45,7 +45,7 @@ height_label = ttk.Label(calculate_bmi,text="Height:")
 height_label.pack(fill='x', expand=True)
 
 height_var = Tk.StringVar()
-height_entry = ttk.Entry(calculate_bmi,textvariable=height_var,show='~')
+height_entry = ttk.Entry(calculate_bmi,textvariable=height_var)
 height_entry.pack(fill='x', expand=True)
 height_entry.focus()
 
@@ -54,7 +54,7 @@ weight_label = ttk.Label(calculate_bmi,text="Weight:")
 weight_label.pack(fill='x', expand=True)
 
 weight_var = Tk.StringVar()
-weight_entry = ttk.Entry(calculate_bmi,textvariable=weight_var,show='~')
+weight_entry = ttk.Entry(calculate_bmi,textvariable=weight_var)
 weight_entry.pack(fill='x', expand=True)
 
 result_label = ttk.Label(calculate_bmi,text="Result:")
